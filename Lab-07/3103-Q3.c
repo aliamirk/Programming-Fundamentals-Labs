@@ -3,7 +3,8 @@
 int main(){
 	int userArray[10] = {4,1,6,8,10,21,8,9,2,6};
 	int max, min, i;
-	max, min = userArray[0];
+	max = userArray[0];
+    min = userArray[0];
 	
 	for (i=0; i<=9; i++){
 		
@@ -16,5 +17,5 @@ int main(){
 		}
 	}
 	printf("\nMaximum Number in Array is: %d", max);
-	printf("\nMinimum Number in Array is: %d", min);
+	printf("\nMinimum Number in Array is: %d\n", min);
 }
