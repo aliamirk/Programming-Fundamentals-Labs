@@ -35,26 +35,27 @@ int main(){
     }
 
     // Output the frequencies for each slogan
-    printf("\nFirst Slogan Frequencies ---------\n");
+    printf("\nFirst Slogan Character Frequencies ---------\n");
     for (i = 0; i < 26; i++){
         if (freq1[i] > 0){
-        printf("Frequency of %c is: %d\n", chArray[i], freq1[i]);
+        printf("%c: %d, ", chArray[i], freq1[i]);
         }
     }
-    
-    printf("\nSecond Slogan Frequencies ---------\n");
+    printf("\n");
+    printf("\nSecond Slogan Character Frequencies ---------\n");
     for (i = 0; i < 26; i++){
         if (freq2[i] > 0){
-            printf("Frequency of %c is: %d\n", chArray[i], freq2[i]);
+            printf("%c: %d, ", chArray[i], freq2[i]);
         }    
     }
-    
-    printf("\nThird Slogan Frequencies ---------\n");
+    printf("\n");
+    printf("\nThird Slogan Character Frequencies ---------\n");
     for (i = 0; i < 26; i++){
         if (freq3[i] > 0){
-            printf("Frequency of %c is: %d\n", chArray[i], freq3[i]);
+            printf("%c: %d ", chArray[i], freq3[i]);
         }   
     }
+    printf("\n \n");
 
     return 0;
 }
